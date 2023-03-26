@@ -15,6 +15,9 @@ body{
  margin-left: 20px;
 }
 
+.live{margin-top:10px}
+
+
 #allInfo{
    display: flex;
    flex-direction: row;
@@ -155,8 +158,11 @@ footer{
        width: 100%;
     }
     #aboutMe{
+       display: flex;
        flex-direction: column;
+       justify-content: center;
        padding-left: 20px;
+
     }
     #aboutMe img{
      width: 80%
@@ -165,13 +171,16 @@ footer{
       margin-left: 40px;
    }
    #allInfo{
-      flex-direction: column;
+      flex-direction: column-reverse;
       padding-left: 20px;
    }
    #profilePic{
       width: 65%;
      margin: 0 auto;
-     margin-top: 20px;
+     margin-bottom: 20px;
+     
+     height: auto
+
    }
 
  }
